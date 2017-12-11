@@ -1,0 +1,300 @@
+html
+{
+  font-family: sans-serif;
+  background: linear-gradient(45deg, #dee5a5,#219bff);
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+* {
+    box-sizing: content-box;
+}
+#content
+{
+      margin: auto;
+      width: 80%;
+      height: 80%;
+      position: absolute;
+      padding: 10px;
+      top:0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      box-sizing: content-box;
+}
+.editor {
+border: 2px white;
+border-radius: 10px;
+ margin: 5px;
+ padding: 10px;
+ width: 57%;
+ height: 90%;
+ float: left;
+ background: rgba(255, 255, 255, 0.7);
+ border-radius: 3px;
+ box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+ box-sizing: content-box;
+}
+
+#wynik {
+  margin: 5px;
+  padding: 10px;
+  width: 35%;
+	height: 90%;
+  float: right;
+  overflow-y: scroll;
+  border-radius: 3px;
+  box-sizing: content-box;
+}
+
+#GRAPH
+{
+background: rgba(255, 255, 255, 0.7);
+border-radius: 3px;
+box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+ margin: 10px;
+ padding: 10px;
+ width: auto;
+ height: 40%;
+ text-align: center;
+}
+#OWL_DATA_CLASSES
+{
+background: rgba(255, 255, 255, 0.7);
+border-radius: 3px;
+box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+ margin: 10px;
+ padding: 10px;
+ width: auto;
+ height: 40%;
+ text-align: center;
+ overflow-y: scroll;
+}
+#OWL_DATA_INDIVIDUALS
+{
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 3px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+   margin: 10px;
+   padding: 10px;
+ width: auto;
+ height: 40%;
+ text-align: center;
+ overflow-y: scroll;
+}
+#OWL_DATA_OBJECT_PROPERTIES
+{
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 3px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+   margin: 10px;
+   padding: 10px;
+ width: auto;
+ height: 40%;
+ text-align: center;
+ overflow-y: scroll;
+}
+#SUBCLASSES_CLASS
+{
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 3px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+   margin: 10px;
+   padding: 10px;
+ width: auto;
+ height: 40%;
+ text-align: center;
+ overflow-y: scroll;
+}
+#UPPERCLASSES_CLASS
+{
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 3px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+   margin: 10px;
+   padding: 10px;
+ width: auto;
+ height: 40%;
+ text-align: center;
+ overflow-y: scroll;
+}
+#INDI_CLASS
+{
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 3px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+   margin: 10px;
+   padding: 10px;
+ width: auto;
+ height: 40%;
+ text-align: center;
+ overflow-y: scroll;
+}
+#CLASS_INDI
+{
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 3px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+   margin: 10px;
+   padding: 10px;
+ width: auto;
+ height: 40%;
+ text-align: center;
+ overflow-y: scroll;
+}
+#INDI_INDI
+{
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 3px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+   margin: 10px;
+   padding: 10px;
+ width: auto;
+ height: 40%;
+ text-align: center;
+ overflow-y: scroll;
+}
+#REL_INDI
+{
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 3px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+   margin: 10px;
+   padding: 10px;
+ width: auto;
+ height: 40%;
+ text-align: center;
+ overflow-y: scroll;
+}
+#LIB
+{
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 3px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+   margin: 10px;
+   padding: 10px;
+ width: auto;
+ height: 40px;
+ text-align: center;
+ overflow-y: scroll;
+}
+#SEARCH_ALL_DOM
+{
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 3px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+   margin: 10px;
+   padding: 10px;
+ width: auto;
+ height: 40%;
+ text-align: center;
+ overflow-y: scroll;
+}
+#SEARCH_ALL_DOM_BUTTON
+{
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 3px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+   margin: 10px;
+   padding: 10px;
+ width: auto;
+ height: 25px;
+ text-align: center;
+}
+#ONE_WORD_INFO
+{
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 3px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+   margin: 10px;
+   padding: 10px;
+ width: auto;
+ height: 35px;
+ text-align: center;
+}
+#OWL_DATA_CLASSES_BUTTON
+{
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 3px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+   margin: 10px;
+   padding: 10px;
+ width: auto;
+ height: 25px;
+ text-align: center;
+}
+#OWL_DATA_INDIVIDUALS_BUTTON
+{
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 3px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+   margin: 10px;
+   padding: 10px;
+ width: auto;
+ height: 35px;
+ text-align: center;
+}
+#OWL_DATA_OBJECT_PROPERTIES_BUTTON
+{
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 3px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+   margin: 10px;
+   padding: 10px;
+ width: auto;
+ height: 25px;
+ text-align: center;
+}
+td, th {
+
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: #219bff;
+}
+ul{
+  margin: 15px;
+}
+ol{
+list-style: none;
+font-size: 15px;
+font-family: 'Raleway', sans-serif;
+padding: 0;
+margin-bottom: 4em;
+}
+
+ol ol{
+margin: 0 0 0 2em;
+}
+
+a{
+position: relative;
+display: block;
+padding: .4em .4em .4em 2em;
+*padding: .4em;
+margin: .5em 0;
+color: #444;
+text-decoration: none;
+transition: all .2s ease-in-out;
+}
+
+a:hover{
+background: #219bff;
+text-decoration:none;
+transform: scale(1.1);
+}
+
+a:before{
+position: absolute;
+left: -1.3em;
+top: 50%;
+margin-top: -1.3em;
+height: 2em;
+width: 2em;
+line-height: 2em;
+border: .3em solid white;
+text-align: center;
+font-weight: bold;
+color:#black;
+}
