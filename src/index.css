@@ -9,7 +9,7 @@ html
 * {
     box-sizing: content-box;
 }
-#content
+#content_div
 {
       margin: auto;
       width: 80%;
@@ -36,7 +36,7 @@ border-radius: 10px;
  box-sizing: content-box;
 }
 
-#wynik {
+#result_div {
   margin: 5px;
   padding: 10px;
   width: 35%;
@@ -47,7 +47,7 @@ border-radius: 10px;
   box-sizing: content-box;
 }
 
-#GRAPH
+#graph_div
 {
 background: rgba(255, 255, 255, 0.7);
 border-radius: 3px;
@@ -58,7 +58,7 @@ box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
  height: 40%;
  text-align: center;
 }
-#OWL_DATA_CLASSES
+#all_classes_from_ontology_div
 {
 background: rgba(255, 255, 255, 0.7);
 border-radius: 3px;
@@ -70,7 +70,7 @@ box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
  text-align: center;
  overflow-y: scroll;
 }
-#OWL_DATA_INDIVIDUALS
+#all_individuals_from_ontology_div
 {
   background: rgba(255, 255, 255, 0.7);
   border-radius: 3px;
@@ -82,7 +82,7 @@ box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
  text-align: center;
  overflow-y: scroll;
 }
-#OWL_DATA_OBJECT_PROPERTIES
+#all_relations_from_ontology_div
 {
   background: rgba(255, 255, 255, 0.7);
   border-radius: 3px;
@@ -94,7 +94,7 @@ box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
  text-align: center;
  overflow-y: scroll;
 }
-#SUBCLASSES_CLASS
+#subclasses_of_class_div
 {
   background: rgba(255, 255, 255, 0.7);
   border-radius: 3px;
@@ -106,7 +106,7 @@ box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
  text-align: center;
  overflow-y: scroll;
 }
-#UPPERCLASSES_CLASS
+#classes_above_class_div
 {
   background: rgba(255, 255, 255, 0.7);
   border-radius: 3px;
@@ -118,7 +118,7 @@ box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
  text-align: center;
  overflow-y: scroll;
 }
-#INDI_CLASS
+#individuals_of_class_div
 {
   background: rgba(255, 255, 255, 0.7);
   border-radius: 3px;
@@ -130,7 +130,7 @@ box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
  text-align: center;
  overflow-y: scroll;
 }
-#CLASS_INDI
+#classes_of_individual_div
 {
   background: rgba(255, 255, 255, 0.7);
   border-radius: 3px;
@@ -142,7 +142,7 @@ box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
  text-align: center;
  overflow-y: scroll;
 }
-#INDI_INDI
+#twin_individual_div
 {
   background: rgba(255, 255, 255, 0.7);
   border-radius: 3px;
@@ -154,7 +154,7 @@ box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
  text-align: center;
  overflow-y: scroll;
 }
-#REL_INDI
+#relations_div
 {
   background: rgba(255, 255, 255, 0.7);
   border-radius: 3px;
@@ -166,7 +166,7 @@ box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
  text-align: center;
  overflow-y: scroll;
 }
-#LIB
+#load_ontology_div
 {
   background: rgba(255, 255, 255, 0.7);
   border-radius: 3px;
@@ -178,19 +178,8 @@ box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
  text-align: center;
  overflow-y: scroll;
 }
-#SEARCH_ALL_DOM
-{
-  background: rgba(255, 255, 255, 0.7);
-  border-radius: 3px;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
-   margin: 10px;
-   padding: 10px;
- width: auto;
- height: 40%;
- text-align: center;
- overflow-y: scroll;
-}
-#SEARCH_ALL_DOM_BUTTON
+
+#small_div
 {
   background: rgba(255, 255, 255, 0.7);
   border-radius: 3px;
@@ -201,7 +190,7 @@ box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
  height: 25px;
  text-align: center;
 }
-#ONE_WORD_INFO
+#big_div
 {
   background: rgba(255, 255, 255, 0.7);
   border-radius: 3px;
@@ -212,39 +201,7 @@ box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
  height: 35px;
  text-align: center;
 }
-#OWL_DATA_CLASSES_BUTTON
-{
-  background: rgba(255, 255, 255, 0.7);
-  border-radius: 3px;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
-   margin: 10px;
-   padding: 10px;
- width: auto;
- height: 25px;
- text-align: center;
-}
-#OWL_DATA_INDIVIDUALS_BUTTON
-{
-  background: rgba(255, 255, 255, 0.7);
-  border-radius: 3px;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
-   margin: 10px;
-   padding: 10px;
- width: auto;
- height: 35px;
- text-align: center;
-}
-#OWL_DATA_OBJECT_PROPERTIES_BUTTON
-{
-  background: rgba(255, 255, 255, 0.7);
-  border-radius: 3px;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
-   margin: 10px;
-   padding: 10px;
- width: auto;
- height: 25px;
- text-align: center;
-}
+
 td, th {
 
     text-align: left;
